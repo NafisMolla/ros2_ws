@@ -1,0 +1,38 @@
+[0.023s] Invoking command in '/home/nmolla/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.086s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.122s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.220s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.572s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.848s] -- Configuring done
+[0.859s] -- Generating done
+[0.861s] -- Build files have been written to: /home/nmolla/ros2_ws/build/my_cpp_pkg
+[0.894s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.956s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[4.176s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.413s] [100%] Built target cpp_node
+[4.434s] Invoked command in '/home/nmolla/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[4.489s] Invoking command in '/home/nmolla/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/nmolla/ros2_ws/build/my_cpp_pkg
+[4.501s] -- Install configuration: ""
+[4.501s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[4.502s] -- Set runtime path of "/home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[4.502s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.502s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.503s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.503s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.503s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.503s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.504s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.504s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.504s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.504s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.504s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.504s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.505s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.505s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.505s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.511s] Invoked command in '/home/nmolla/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/nmolla/ros2_ws/build/my_cpp_pkg

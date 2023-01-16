@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/nmolla/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.082s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.123s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[3.269s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[3.464s] [100%] Built target cpp_node
+[3.481s] Invoked command in '/home/nmolla/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[3.531s] Invoking command in '/home/nmolla/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/nmolla/ros2_ws/build/my_cpp_pkg
+[3.543s] -- Install configuration: ""
+[3.543s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.544s] -- Set runtime path of "/home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[3.544s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.545s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.545s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.545s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.545s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.545s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.546s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.546s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.546s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.546s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.546s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.546s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.547s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.547s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.547s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.549s] Invoked command in '/home/nmolla/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/nmolla/ros2_ws/build/my_cpp_pkg

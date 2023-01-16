@@ -1,0 +1,67 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/nmolla/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nmolla/ros2_ws/build/my_cpp_pkg
+[35m[1mScanning dependencies of target number_publisher[0m
+[ 11%] Built target cpp_node
+[ 22%] Built target robot_news_station
+[ 33%] Built target number_counter
+[ 38%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[ 50%] Built target add_two_ints_server
+[ 61%] Built target smartphone
+[ 72%] Built target add_two_ints_client
+[35m[1mScanning dependencies of target hardware_status_publisher[0m
+[ 83%] Built target add_two_ints_client_no_oop
+[ 88%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:10:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   10 |         this->declare_parameter("test123"[01;35m[K)[m[K;
+      |                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[100%] [32m[1mLinking CXX executable number_publisher[0m
+[100%] Built target hardware_status_publisher
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+-- Set runtime path of "/home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+-- Set runtime path of "/home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher" to ""
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

@@ -1,0 +1,18 @@
+[0.034s] Invoking command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4
+[0.125s] [35m[1mScanning dependencies of target turtle_controller[0m
+[0.158s] [ 50%] Built target turtle_spawner
+[0.216s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[3.834s] [01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::controlLoop()[m[K’:
+[3.834s] [01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller.cpp:66:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator||[m[K’ (operand types are ‘[01m[Kbool[m[K’ and ‘[01m[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >::_name_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[3.835s]    66 |         if ([32m[K!turtlesim_up_[m[K  [01;31m[K||[m[K  [34m[Kturtle_to_catch_.name[m[K = "")
+[3.835s]       |             [32m[K~~~~~~~~~~~~~~[m[K  [01;31m[K^~[m[K  [34m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.835s]       |             [32m[K|[m[K                                    [34m[K|[m[K
+[3.835s]       |             [32m[Kbool[m[K                                 [34m[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >::_name_type {aka std::__cxx11::basic_string<char>}[m[K
+[3.836s] [01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller.cpp:66:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator||(bool, bool)[m[K’ <built-in>
+[3.836s]    66 |         if ([01;36m[K!turtlesim_up_  ||  turtle_to_catch_.name[m[K = "")
+[3.836s]       |             [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.836s] [01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller.cpp:66:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >::_name_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kbool[m[K’
+[8.868s] make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[8.869s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_controller.dir/all] Error 2
+[8.869s] make: *** [Makefile:141: all] Error 2
+[8.878s] Invoked command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all' returned '2': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4

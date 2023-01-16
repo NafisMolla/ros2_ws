@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000287] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001461] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.031366] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.033965] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.035200] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nmolla/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/nmolla/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'nmolla'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nmolla'), ('OLDPWD', '/home/nmolla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1236'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '93668'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nmolla/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nmolla'), ('JOURNAL_STREAM', '8:42715'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nmolla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nmolla-X1C:@/tmp/.ICE-unix/1451,unix/nmolla-X1C:/tmp/.ICE-unix/1451'), ('INVOCATION_ID', 'f4e6ee8917f449d499a0cf9072e3357a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4a605e51-249f-4537-b88d-faffb07ee9f3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nmolla/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic')]), 'shell': False}
+[0.099638] (-) TimerEvent: {}
+[0.200457] (-) TimerEvent: {}
+[0.262017] (my_cpp_pkg) StdoutLine: {'line': b'[ 40%] Built target cpp_node\n'}
+[0.262488] (my_cpp_pkg) StdoutLine: {'line': b'[ 40%] Built target robot_news_station\n'}
+[0.270327] (my_cpp_pkg) StdoutLine: {'line': b'[ 80%] Built target number_publisher\n'}
+[0.270669] (my_cpp_pkg) StdoutLine: {'line': b'[ 80%] Built target smartphone\n'}
+[0.288187] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target number_counter\x1b[0m\n'}
+[0.300587] (-) TimerEvent: {}
+[0.336897] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.400703] (-) TimerEvent: {}
+[0.501140] (-) TimerEvent: {}
+[0.601486] (-) TimerEvent: {}
+[0.701849] (-) TimerEvent: {}
+[0.802322] (-) TimerEvent: {}
+[0.902671] (-) TimerEvent: {}
+[1.003203] (-) TimerEvent: {}
+[1.103761] (-) TimerEvent: {}
+[1.204362] (-) TimerEvent: {}
+[1.304943] (-) TimerEvent: {}
+[1.405446] (-) TimerEvent: {}
+[1.505993] (-) TimerEvent: {}
+[1.606446] (-) TimerEvent: {}
+[1.706954] (-) TimerEvent: {}
+[1.807441] (-) TimerEvent: {}
+[1.907866] (-) TimerEvent: {}
+[2.008227] (-) TimerEvent: {}
+[2.108597] (-) TimerEvent: {}
+[2.209053] (-) TimerEvent: {}
+[2.309415] (-) TimerEvent: {}
+[2.410025] (-) TimerEvent: {}
+[2.510422] (-) TimerEvent: {}
+[2.610730] (-) TimerEvent: {}
+[2.711080] (-) TimerEvent: {}
+[2.811495] (-) TimerEvent: {}
+[2.912029] (-) TimerEvent: {}
+[3.012416] (-) TimerEvent: {}
+[3.112799] (-) TimerEvent: {}
+[3.213169] (-) TimerEvent: {}
+[3.313588] (-) TimerEvent: {}
+[3.414038] (-) TimerEvent: {}
+[3.514467] (-) TimerEvent: {}
+[3.614927] (-) TimerEvent: {}
+[3.715382] (-) TimerEvent: {}
+[3.815824] (-) TimerEvent: {}
+[3.916266] (-) TimerEvent: {}
+[4.016617] (-) TimerEvent: {}
+[4.113034] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NumberCounterNode::subscriber_callback(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.113496] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:27:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kauto msg\x1b[m\x1b[K\xe2\x80\x99 shadows a parameter\n'}
+[4.113659] (my_cpp_pkg) StderrLine: {'line': b'   27 |         auto \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K = example_interfaces::msg::Int64();\n'}
+[4.114009] (my_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.114147] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:25:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.114278] (my_cpp_pkg) StderrLine: {'line': b'   25 | callback(\x1b[01;35m\x1b[Kconst example_interfaces::msg::Int64::SharedPtr msg\x1b[m\x1b[K){\n'}
+[4.114392] (my_cpp_pkg) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.114503] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[4.116749] (-) TimerEvent: {}
+[4.217129] (-) TimerEvent: {}
+[4.317464] (-) TimerEvent: {}
+[4.417821] (-) TimerEvent: {}
+[4.518185] (-) TimerEvent: {}
+[4.618518] (-) TimerEvent: {}
+[4.718814] (-) TimerEvent: {}
+[4.819290] (-) TimerEvent: {}
+[4.919647] (-) TimerEvent: {}
+[5.019984] (-) TimerEvent: {}
+[5.120330] (-) TimerEvent: {}
+[5.220687] (-) TimerEvent: {}
+[5.321083] (-) TimerEvent: {}
+[5.421418] (-) TimerEvent: {}
+[5.521844] (-) TimerEvent: {}
+[5.622173] (-) TimerEvent: {}
+[5.722584] (-) TimerEvent: {}
+[5.822938] (-) TimerEvent: {}
+[5.923292] (-) TimerEvent: {}
+[6.023637] (-) TimerEvent: {}
+[6.123982] (-) TimerEvent: {}
+[6.224339] (-) TimerEvent: {}
+[6.324734] (-) TimerEvent: {}
+[6.425201] (-) TimerEvent: {}
+[6.525700] (-) TimerEvent: {}
+[6.626219] (-) TimerEvent: {}
+[6.726810] (-) TimerEvent: {}
+[6.827448] (-) TimerEvent: {}
+[6.927834] (-) TimerEvent: {}
+[7.028200] (-) TimerEvent: {}
+[7.128573] (-) TimerEvent: {}
+[7.229099] (-) TimerEvent: {}
+[7.329494] (-) TimerEvent: {}
+[7.424194] (my_cpp_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/number_counter.dir/build.make:63: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1\n'}
+[7.424670] (my_cpp_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/number_counter.dir/all] Error 2\n'}
+[7.425631] (my_cpp_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.428984] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[7.429833] (-) TimerEvent: {}
+[7.519711] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[7.530167] (-) TimerEvent: {}
+[7.530980] (-) EventReactorShutdown: {}

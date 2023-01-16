@@ -1,0 +1,71 @@
+[0.041s] Invoking command in '/home/nmolla/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic LD_LIBRARY_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.159s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.308s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.635s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.638s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.667s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.865s] -- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)
+[1.007s] -- Found my_robot_interfaces: 0.0.0 (/home/nmolla/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.111s] -- Configuring done
+[1.172s] -- Generating done
+[1.176s] -- Build files have been written to: /home/nmolla/ros2_ws/build/my_cpp_pkg
+[1.224s] [35m[1mScanning dependencies of target number_publisher[0m
+[1.256s] [ 11%] Built target cpp_node
+[1.257s] [ 22%] Built target robot_news_station
+[1.262s] [ 33%] Built target number_counter
+[1.293s] [ 38%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.316s] [ 50%] Built target add_two_ints_server
+[1.319s] [ 61%] Built target smartphone
+[1.322s] [ 72%] Built target add_two_ints_client
+[1.343s] [35m[1mScanning dependencies of target hardware_status_publisher[0m
+[1.373s] [ 83%] Built target add_two_ints_client_no_oop
+[1.397s] [ 88%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[3.782s] [01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[3.782s] [01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:10:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.782s]    10 |         this->declare_parameter("test123"[01;35m[K)[m[K;
+[3.782s]       |                                          [01;35m[K^[m[K
+[3.782s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.783s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.783s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.783s]                  from [01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:1[m[K:
+[3.783s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.783s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.783s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.916s] [100%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[6.917s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[7.291s] [100%] Built target hardware_status_publisher
+[7.295s] [100%] Built target number_publisher
+[7.312s] Invoked command in '/home/nmolla/ros2_ws/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic LD_LIBRARY_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[7.389s] Invoking command in '/home/nmolla/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic LD_LIBRARY_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nmolla/ros2_ws/build/my_cpp_pkg
+[7.401s] -- Install configuration: ""
+[7.402s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[7.403s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[7.405s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[7.405s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[7.408s] -- Set runtime path of "/home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[7.408s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[7.409s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[7.410s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[7.412s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[7.413s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[7.415s] -- Set runtime path of "/home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher" to ""
+[7.415s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[7.416s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[7.416s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[7.416s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[7.416s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[7.416s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[7.417s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[7.417s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[7.417s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[7.417s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[7.418s] -- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[7.418s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[7.418s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[7.418s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[7.418s] -- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[7.422s] Invoked command in '/home/nmolla/ros2_ws/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic LD_LIBRARY_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nmolla/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nmolla/ros2_ws/build/my_cpp_pkg

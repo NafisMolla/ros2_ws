@@ -1,0 +1,8 @@
+[01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::call_spawn_server(double, double, double, std::string)[m[K’:
+[01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:77:17:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishAliveTurtles[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_alive_turtles[m[K’?
+   77 |                 [01;31m[KpublishAliveTurtles[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[Kpublish_alive_turtles[m[K
+make[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:63: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_spawner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

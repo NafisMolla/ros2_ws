@@ -1,0 +1,4 @@
+[01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::call_kill_server(std::string)[m[K’:
+[01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:69:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   69 |             for(int i =0; [01;35m[Ki<alive_turtles_.size()[m[K;i++){
+      |                           [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K

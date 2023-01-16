@@ -1,0 +1,12 @@
+[0.042s] Invoking command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4
+[0.209s] [35m[1mScanning dependencies of target turtle_controller[0m
+[0.248s] [ 50%] Built target turtle_spawner
+[0.270s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[0.679s] [01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/turtle.hpp: No such file or directory
+[0.679s]     5 | #include [01;31m[K"my_robot_interfaces/msg/turtle.hpp"[m[K
+[0.679s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.679s] compilation terminated.
+[0.684s] make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[0.685s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_controller.dir/all] Error 2
+[0.685s] make: *** [Makefile:141: all] Error 2
+[0.694s] Invoked command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all' returned '2': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4

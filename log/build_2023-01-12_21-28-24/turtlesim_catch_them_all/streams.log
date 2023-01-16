@@ -1,0 +1,28 @@
+[0.037s] Invoking command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4
+[0.149s] [35m[1mScanning dependencies of target turtle_spawner[0m
+[0.177s] [ 50%] Built target turtle_controller
+[0.206s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[9.224s] [100%] [32m[1mLinking CXX executable turtle_spawner[0m
+[9.741s] [100%] Built target turtle_spawner
+[9.760s] Invoked command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4
+[9.824s] Invoking command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --install /home/nmolla/ros2_ws/build/turtlesim_catch_them_all
+[9.838s] -- Install configuration: ""
+[9.838s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller
+[9.839s] -- Installing: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner
+[9.842s] -- Set runtime path of "/home/nmolla/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner" to ""
+[9.843s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all
+[9.843s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all
+[9.843s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh
+[9.843s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv
+[9.843s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh
+[9.844s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv
+[9.844s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash
+[9.844s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh
+[9.844s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh
+[9.844s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv
+[9.844s] -- Installing: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv
+[9.845s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all
+[9.845s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake
+[9.845s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake
+[9.845s] -- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml
+[9.847s] Invoked command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --install /home/nmolla/ros2_ws/build/turtlesim_catch_them_all

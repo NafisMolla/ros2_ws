@@ -1,0 +1,13 @@
+[0.039s] Invoking command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4
+[0.148s] [35m[1mScanning dependencies of target turtle_spawner[0m
+[0.205s] [ 50%] Built target turtle_controller
+[0.229s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[3.486s] [01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::call_spawn_server(double, double, double, std::string)[m[K’:
+[3.486s] [01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:77:17:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishAliveTurtles[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_alive_turtles[m[K’?
+[3.487s]    77 |                 [01;31m[KpublishAliveTurtles[m[K();
+[3.487s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.487s]       |                 [32m[Kpublish_alive_turtles[m[K
+[5.142s] make[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:63: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1
+[5.142s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_spawner.dir/all] Error 2
+[5.143s] make: *** [Makefile:141: all] Error 2
+[5.147s] Invoked command in '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all' returned '2': CMAKE_PREFIX_PATH=/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/turtlesim_catch_them_all -- -j4 -l4

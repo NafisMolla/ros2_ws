@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:37 (install):
+  install TARGETS given target "add_two_ints_client_no_opp" which does not
+  exist.
+
+
+make: *** [Makefile:486: cmake_check_build_system] Error 1

@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000239] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.019818] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.020991] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.022693] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nmolla/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/nmolla/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'nmolla'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nmolla'), ('OLDPWD', '/home/nmolla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1236'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nmolla/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nmolla'), ('JOURNAL_STREAM', '8:1105556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nmolla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nmolla-X1C:@/tmp/.ICE-unix/1451,unix/nmolla-X1C:/tmp/.ICE-unix/1451'), ('INVOCATION_ID', 'a94e9e3e33094805adbfe8479c373d97'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cfa28bf7-427f-4856-8d60-89b65c8b0bed'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nmolla/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic')]), 'shell': False}
+[0.098831] (-) TimerEvent: {}
+[0.132966] (my_cpp_pkg) StdoutLine: {'line': b'[ 14%] Built target cpp_node\n'}
+[0.136490] (my_cpp_pkg) StdoutLine: {'line': b'[ 28%] Built target robot_news_station\n'}
+[0.136870] (my_cpp_pkg) StdoutLine: {'line': b'[ 42%] Built target smartphone\n'}
+[0.151132] (my_cpp_pkg) StdoutLine: {'line': b'[ 57%] Built target number_publisher\n'}
+[0.168375] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[0.187587] (my_cpp_pkg) StdoutLine: {'line': b'[ 71%] Built target add_two_ints_server\n'}
+[0.194615] (my_cpp_pkg) StdoutLine: {'line': b'[ 85%] Built target number_counter\n'}
+[0.198908] (-) TimerEvent: {}
+[0.215091] (my_cpp_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o\x1b[0m\n'}
+[0.299069] (-) TimerEvent: {}
+[0.399435] (-) TimerEvent: {}
+[0.499789] (-) TimerEvent: {}
+[0.600157] (-) TimerEvent: {}
+[0.700489] (-) TimerEvent: {}
+[0.800836] (-) TimerEvent: {}
+[0.901228] (-) TimerEvent: {}
+[1.001584] (-) TimerEvent: {}
+[1.101945] (-) TimerEvent: {}
+[1.202291] (-) TimerEvent: {}
+[1.302651] (-) TimerEvent: {}
+[1.403006] (-) TimerEvent: {}
+[1.503348] (-) TimerEvent: {}
+[1.603696] (-) TimerEvent: {}
+[1.704036] (-) TimerEvent: {}
+[1.804401] (-) TimerEvent: {}
+[1.904744] (-) TimerEvent: {}
+[2.005077] (-) TimerEvent: {}
+[2.105438] (-) TimerEvent: {}
+[2.205786] (-) TimerEvent: {}
+[2.306174] (-) TimerEvent: {}
+[2.406542] (-) TimerEvent: {}
+[2.442273] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.442814] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.442991] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.443137] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.443355] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.443516] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.443656] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.443787] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.443922] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.444045] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.444180] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1\x1b[m\x1b[K:\n'}
+[2.444403] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.444592] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:22:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.444774] (my_cpp_pkg) StderrLine: {'line': b'   22 |         RCLCPP_INFO(node->get_logger(), \x1b[01;35m\x1b[K"%d + %d = %d"\x1b[m\x1b[K, \x1b[32m\x1b[Krequest->a\x1b[m\x1b[K, request->b, future.get()->sum);\n'}
+[2.444944] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.445096] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.445243] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}\x1b[m\x1b[K\n'}
+[2.445480] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:22:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.445649] (my_cpp_pkg) StderrLine: {'line': b'   22 |         RCLCPP_INFO(node->get_logger(), "\x1b[01;36m\x1b[K%d\x1b[m\x1b[K + %d = %d", request->a, request->b, future.get()->sum);\n'}
+[2.445806] (my_cpp_pkg) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.445961] (my_cpp_pkg) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.446111] (my_cpp_pkg) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.446258] (my_cpp_pkg) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.446409] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.446665] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.446827] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.446985] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.447147] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.447307] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.447467] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.447817] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.448007] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.448183] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.448346] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1\x1b[m\x1b[K:\n'}
+[2.448527] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:22:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.448820] (my_cpp_pkg) StderrLine: {'line': b'   22 |         RCLCPP_INFO(node->get_logger(), \x1b[01;35m\x1b[K"%d + %d = %d"\x1b[m\x1b[K, request->a, \x1b[32m\x1b[Krequest->b\x1b[m\x1b[K, future.get()->sum);\n'}
+[2.448995] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K              \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.449148] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.449299] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}\x1b[m\x1b[K\n'}
+[2.449451] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:22:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.449603] (my_cpp_pkg) StderrLine: {'line': b'   22 |         RCLCPP_INFO(node->get_logger(), "%d + \x1b[01;36m\x1b[K%d\x1b[m\x1b[K = %d", request->a, request->b, future.get()->sum);\n'}
+[2.449836] (my_cpp_pkg) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.450005] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.450167] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.450322] (my_cpp_pkg) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.450475] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.450628] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.450856] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.451024] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.451182] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.451332] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.451486] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.451637] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.451789] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.452044] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.452213] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1\x1b[m\x1b[K:\n'}
+[2.452360] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:22:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.452555] (my_cpp_pkg) StderrLine: {'line': b'   22 |         RCLCPP_INFO(node->get_logger(), \x1b[01;35m\x1b[K"%d + %d = %d"\x1b[m\x1b[K, request->a, request->b, \x1b[32m\x1b[Kfuture.get()->sum\x1b[m\x1b[K);\n'}
+[2.452710] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K                          \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.452861] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.453123] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                               \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[2.453287] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:22:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.453443] (my_cpp_pkg) StderrLine: {'line': b'   22 |         RCLCPP_INFO(node->get_logger(), "%d + %d = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", request->a, request->b, future.get()->sum);\n'}
+[2.453591] (my_cpp_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.453737] (my_cpp_pkg) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.453883] (my_cpp_pkg) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.454125] (my_cpp_pkg) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.506669] (-) TimerEvent: {}
+[2.607057] (-) TimerEvent: {}
+[2.707454] (-) TimerEvent: {}
+[2.807834] (-) TimerEvent: {}
+[2.908189] (-) TimerEvent: {}
+[3.008714] (-) TimerEvent: {}
+[3.109115] (-) TimerEvent: {}
+[3.209629] (-) TimerEvent: {}
+[3.310014] (-) TimerEvent: {}
+[3.410452] (-) TimerEvent: {}
+[3.510844] (-) TimerEvent: {}
+[3.611229] (-) TimerEvent: {}
+[3.711595] (-) TimerEvent: {}
+[3.812038] (-) TimerEvent: {}
+[3.912417] (-) TimerEvent: {}
+[4.012766] (-) TimerEvent: {}
+[4.113102] (-) TimerEvent: {}
+[4.176298] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_no_oop\x1b[0m\n'}
+[4.213245] (-) TimerEvent: {}
+[4.313670] (-) TimerEvent: {}
+[4.414125] (-) TimerEvent: {}
+[4.419219] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_client_no_oop\n'}
+[4.436756] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[4.490214] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[4.506328] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nmolla/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/nmolla/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'nmolla'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nmolla'), ('OLDPWD', '/home/nmolla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1236'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nmolla/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nmolla'), ('JOURNAL_STREAM', '8:1105556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nmolla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nmolla-X1C:@/tmp/.ICE-unix/1451,unix/nmolla-X1C:/tmp/.ICE-unix/1451'), ('INVOCATION_ID', 'a94e9e3e33094805adbfe8479c373d97'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cfa28bf7-427f-4856-8d60-89b65c8b0bed'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nmolla/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic')]), 'shell': False}
+[4.514273] (-) TimerEvent: {}
+[4.520164] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.520613] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[4.521385] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[4.522128] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[4.522866] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[4.523650] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[4.524456] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[4.526300] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[4.526629] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/nmolla/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""\n'}
+[4.526933] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[4.527103] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[4.527359] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[4.527606] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[4.527770] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[4.528016] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[4.528516] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[4.528753] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[4.528926] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[4.529101] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[4.529415] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[4.529594] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[4.529770] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[4.529939] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[4.530110] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[4.531988] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[4.614487] (-) TimerEvent: {}
+[4.633422] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[4.635661] (-) EventReactorShutdown: {}

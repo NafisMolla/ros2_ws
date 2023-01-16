@@ -1,0 +1,54 @@
+[0.028s] Invoking command in '/home/nmolla/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.077s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.114s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.223s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.863s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.863s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.863s]   my_robot_interfaces --arguments-file
+[0.863s]   /home/nmolla/ros2_ws/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json
+[0.863s]   --output-dir
+[0.864s]   /home/nmolla/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces
+[0.864s]   --output-file
+[0.864s]   /home/nmolla/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)
+[0.864s]   returned error code 1:
+[0.864s] 
+[0.864s]   Error processing 'Turtle [] turtles' of 'my_robot_interfaces/TurtleArray':
+[0.864s]   ''[]' is an invalid field name.  It should have the pattern
+[0.864s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.864s] 
+[0.864s]   Traceback (most recent call last):
+[0.864s] 
+[0.865s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.865s]       return _run_code(code, main_globals, None,
+[0.865s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.865s]       exec(code, run_globals)
+[0.865s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.865s]       sys.exit(main())
+[0.865s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.865s]       abs_idl_file = convert_to_idl(
+[0.865s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.866s]       return convert_msg_to_idl(
+[0.866s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.866s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.866s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[0.866s]       fields.append(Field(
+[0.866s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[0.866s]       raise NameError(
+[0.866s] 
+[0.867s]   NameError: '[]' is an invalid field name.  It should have the pattern
+[0.867s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.867s] 
+[0.867s] Call Stack (most recent call first):
+[0.867s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.867s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.867s] 
+[0.868s] 
+[0.868s] -- Configuring incomplete, errors occurred!
+[0.868s] See also "/home/nmolla/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.878s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[0.882s] Invoked command in '/home/nmolla/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_robot_interfaces -- -j4 -l4

@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000653] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000718] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000754] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/nmolla/ros2_ws/install/my_robot_interfaces')])}
+[0.000809] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.028059] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'cmake'}
+[0.029500] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'build'}
+[0.030649] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all', '--', '-j4', '-l4'], 'cwd': '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'nmolla'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nmolla/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nmolla'), ('OLDPWD', '/home/nmolla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1236'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nmolla/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nmolla'), ('JOURNAL_STREAM', '8:1105556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nmolla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nmolla-X1C:@/tmp/.ICE-unix/1451,unix/nmolla-X1C:/tmp/.ICE-unix/1451'), ('INVOCATION_ID', 'a94e9e3e33094805adbfe8479c373d97'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:10838b84-6e61-4d09-a628-f1096992bea5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nmolla/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic')]), 'shell': False}
+[0.090045] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.099083] (-) TimerEvent: {}
+[0.136154] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199224] (-) TimerEvent: {}
+[0.256925] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.299375] (-) TimerEvent: {}
+[0.335050] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.342248] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.399521] (-) TimerEvent: {}
+[0.499873] (-) TimerEvent: {}
+[0.554058] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599987] (-) TimerEvent: {}
+[0.666103] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.669765] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.700131] (-) TimerEvent: {}
+[0.702610] (turtlesim_catch_them_all) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.800239] (-) TimerEvent: {}
+[0.900597] (-) TimerEvent: {}
+[0.953279] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found turtlesim: 1.3.4 (/opt/ros/galactic/share/turtlesim/cmake)\n'}
+[1.000721] (-) TimerEvent: {}
+[1.101058] (-) TimerEvent: {}
+[1.144126] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.201206] (-) TimerEvent: {}
+[1.202330] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/nmolla/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[1.301301] (-) TimerEvent: {}
+[1.340047] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.369355] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Generating done\n'}
+[1.373018] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Build files have been written to: /home/nmolla/ros2_ws/build/turtlesim_catch_them_all\n'}
+[1.401450] (-) TimerEvent: {}
+[1.421640] (turtlesim_catch_them_all) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_controller\x1b[0m\n'}
+[1.454029] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 50%] Built target turtle_spawner\n'}
+[1.460007] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[1.501586] (-) TimerEvent: {}
+[1.601890] (-) TimerEvent: {}
+[1.702238] (-) TimerEvent: {}
+[1.802576] (-) TimerEvent: {}
+[1.902944] (-) TimerEvent: {}
+[2.003293] (-) TimerEvent: {}
+[2.103696] (-) TimerEvent: {}
+[2.204147] (-) TimerEvent: {}
+[2.304689] (-) TimerEvent: {}
+[2.405091] (-) TimerEvent: {}
+[2.505503] (-) TimerEvent: {}
+[2.605922] (-) TimerEvent: {}
+[2.706320] (-) TimerEvent: {}
+[2.806952] (-) TimerEvent: {}
+[2.907433] (-) TimerEvent: {}
+[3.007957] (-) TimerEvent: {}
+[3.108485] (-) TimerEvent: {}
+[3.209031] (-) TimerEvent: {}
+[3.309445] (-) TimerEvent: {}
+[3.409832] (-) TimerEvent: {}
+[3.510254] (-) TimerEvent: {}
+[3.610671] (-) TimerEvent: {}
+[3.712297] (-) TimerEvent: {}
+[3.812842] (-) TimerEvent: {}
+[3.913296] (-) TimerEvent: {}
+[4.013673] (-) TimerEvent: {}
+[4.114082] (-) TimerEvent: {}
+[4.214470] (-) TimerEvent: {}
+[4.314900] (-) TimerEvent: {}
+[4.415451] (-) TimerEvent: {}
+[4.515880] (-) TimerEvent: {}
+[4.616255] (-) TimerEvent: {}
+[4.716722] (-) TimerEvent: {}
+[4.817159] (-) TimerEvent: {}
+[4.917676] (-) TimerEvent: {}
+[5.018060] (-) TimerEvent: {}
+[5.118551] (-) TimerEvent: {}
+[5.219067] (-) TimerEvent: {}
+[5.319457] (-) TimerEvent: {}
+[5.419930] (-) TimerEvent: {}
+[5.520535] (-) TimerEvent: {}
+[5.621021] (-) TimerEvent: {}
+[5.721465] (-) TimerEvent: {}
+[5.821931] (-) TimerEvent: {}
+[5.922406] (-) TimerEvent: {}
+[6.022835] (-) TimerEvent: {}
+[6.123270] (-) TimerEvent: {}
+[6.223674] (-) TimerEvent: {}
+[6.324083] (-) TimerEvent: {}
+[6.424560] (-) TimerEvent: {}
+[6.524983] (-) TimerEvent: {}
+[6.625417] (-) TimerEvent: {}
+[6.725755] (-) TimerEvent: {}
+[6.826118] (-) TimerEvent: {}
+[6.926432] (-) TimerEvent: {}
+[7.026815] (-) TimerEvent: {}
+[7.127140] (-) TimerEvent: {}
+[7.227555] (-) TimerEvent: {}
+[7.327950] (-) TimerEvent: {}
+[7.428352] (-) TimerEvent: {}
+[7.528709] (-) TimerEvent: {}
+[7.629051] (-) TimerEvent: {}
+[7.729405] (-) TimerEvent: {}
+[7.829760] (-) TimerEvent: {}
+[7.930115] (-) TimerEvent: {}
+[8.030503] (-) TimerEvent: {}
+[8.130948] (-) TimerEvent: {}
+[8.231392] (-) TimerEvent: {}
+[8.331739] (-) TimerEvent: {}
+[8.432114] (-) TimerEvent: {}
+[8.532668] (-) TimerEvent: {}
+[8.633119] (-) TimerEvent: {}
+[8.733580] (-) TimerEvent: {}
+[8.834058] (-) TimerEvent: {}
+[8.934554] (-) TimerEvent: {}
+[9.035051] (-) TimerEvent: {}
+[9.135551] (-) TimerEvent: {}
+[9.235995] (-) TimerEvent: {}
+[9.336449] (-) TimerEvent: {}
+[9.436834] (-) TimerEvent: {}
+[9.537182] (-) TimerEvent: {}
+[9.637588] (-) TimerEvent: {}
+[9.738021] (-) TimerEvent: {}
+[9.838437] (-) TimerEvent: {}
+[9.938799] (-) TimerEvent: {}
+[10.039200] (-) TimerEvent: {}
+[10.139591] (-) TimerEvent: {}
+[10.239926] (-) TimerEvent: {}
+[10.340326] (-) TimerEvent: {}
+[10.440719] (-) TimerEvent: {}
+[10.541191] (-) TimerEvent: {}
+[10.641691] (-) TimerEvent: {}
+[10.742116] (-) TimerEvent: {}
+[10.842517] (-) TimerEvent: {}
+[10.942981] (-) TimerEvent: {}
+[11.043444] (-) TimerEvent: {}
+[11.143907] (-) TimerEvent: {}
+[11.244248] (-) TimerEvent: {}
+[11.344700] (-) TimerEvent: {}
+[11.445020] (-) TimerEvent: {}
+[11.545362] (-) TimerEvent: {}
+[11.645811] (-) TimerEvent: {}
+[11.746276] (-) TimerEvent: {}
+[11.846692] (-) TimerEvent: {}
+[11.947082] (-) TimerEvent: {}
+[12.047473] (-) TimerEvent: {}
+[12.147891] (-) TimerEvent: {}
+[12.248299] (-) TimerEvent: {}
+[12.348699] (-) TimerEvent: {}
+[12.450289] (-) TimerEvent: {}
+[12.550707] (-) TimerEvent: {}
+[12.651114] (-) TimerEvent: {}
+[12.751443] (-) TimerEvent: {}
+[12.851812] (-) TimerEvent: {}
+[12.952245] (-) TimerEvent: {}
+[13.052685] (-) TimerEvent: {}
+[13.153139] (-) TimerEvent: {}
+[13.253556] (-) TimerEvent: {}
+[13.353926] (-) TimerEvent: {}
+[13.454240] (-) TimerEvent: {}
+[13.554644] (-) TimerEvent: {}
+[13.655021] (-) TimerEvent: {}
+[13.755370] (-) TimerEvent: {}
+[13.855714] (-) TimerEvent: {}
+[13.956099] (-) TimerEvent: {}
+[14.056457] (-) TimerEvent: {}
+[14.156788] (-) TimerEvent: {}
+[14.257129] (-) TimerEvent: {}
+[14.357478] (-) TimerEvent: {}
+[14.457836] (-) TimerEvent: {}
+[14.558180] (-) TimerEvent: {}
+[14.658534] (-) TimerEvent: {}
+[14.758882] (-) TimerEvent: {}
+[14.859229] (-) TimerEvent: {}
+[14.959559] (-) TimerEvent: {}
+[15.059891] (-) TimerEvent: {}
+[15.160362] (-) TimerEvent: {}
+[15.260898] (-) TimerEvent: {}
+[15.361309] (-) TimerEvent: {}
+[15.461708] (-) TimerEvent: {}
+[15.562078] (-) TimerEvent: {}
+[15.662489] (-) TimerEvent: {}
+[15.762908] (-) TimerEvent: {}
+[15.863359] (-) TimerEvent: {}
+[15.963763] (-) TimerEvent: {}
+[16.064118] (-) TimerEvent: {}
+[16.164480] (-) TimerEvent: {}
+[16.264895] (-) TimerEvent: {}
+[16.365329] (-) TimerEvent: {}
+[16.465737] (-) TimerEvent: {}
+[16.566110] (-) TimerEvent: {}
+[16.666528] (-) TimerEvent: {}
+[16.766937] (-) TimerEvent: {}
+[16.867340] (-) TimerEvent: {}
+[16.967758] (-) TimerEvent: {}
+[17.068098] (-) TimerEvent: {}
+[17.168465] (-) TimerEvent: {}
+[17.268811] (-) TimerEvent: {}
+[17.369152] (-) TimerEvent: {}
+[17.469497] (-) TimerEvent: {}
+[17.569845] (-) TimerEvent: {}
+[17.670194] (-) TimerEvent: {}
+[17.770542] (-) TimerEvent: {}
+[17.870896] (-) TimerEvent: {}
+[17.971305] (-) TimerEvent: {}
+[18.071691] (-) TimerEvent: {}
+[18.172145] (-) TimerEvent: {}
+[18.272542] (-) TimerEvent: {}
+[18.302094] (turtlesim_catch_them_all) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[18.372685] (-) TimerEvent: {}
+[18.473200] (-) TimerEvent: {}
+[18.573687] (-) TimerEvent: {}
+[18.674309] (-) TimerEvent: {}
+[18.774904] (-) TimerEvent: {}
+[18.875640] (-) TimerEvent: {}
+[18.976103] (-) TimerEvent: {}
+[19.076459] (-) TimerEvent: {}
+[19.176850] (-) TimerEvent: {}
+[19.277289] (-) TimerEvent: {}
+[19.377789] (-) TimerEvent: {}
+[19.414554] (turtlesim_catch_them_all) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[19.434065] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[19.478242] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'install'}
+[19.478468] (-) TimerEvent: {}
+[19.499906] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all'], 'cwd': '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'nmolla'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nmolla/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nmolla'), ('OLDPWD', '/home/nmolla'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1236'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nmolla/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nmolla'), ('JOURNAL_STREAM', '8:1105556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nmolla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nmolla-X1C:@/tmp/.ICE-unix/1451,unix/nmolla-X1C:/tmp/.ICE-unix/1451'), ('INVOCATION_ID', 'a94e9e3e33094805adbfe8479c373d97'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:10838b84-6e61-4d09-a628-f1096992bea5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nmolla/ros2_ws/build/turtlesim_catch_them_all'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nmolla/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nmolla/ros2_ws/install/my_robot_interfaces:/home/nmolla/ros2_ws/install/turtlesim_catch_them_all:/home/nmolla/ros2_ws/install/my_robot_bringup:/home/nmolla/ros2_ws/install/my_cpp_pkg:/opt/ros/galactic')]), 'shell': False}
+[19.517755] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.518630] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller\n'}
+[19.526550] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/nmolla/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller" to ""\n'}
+[19.527854] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner\n'}
+[19.528553] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all\n'}
+[19.528901] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all\n'}
+[19.529192] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh\n'}
+[19.529463] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv\n'}
+[19.529915] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh\n'}
+[19.530242] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv\n'}
+[19.530681] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash\n'}
+[19.531034] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh\n'}
+[19.531214] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh\n'}
+[19.531369] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv\n'}
+[19.531587] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv\n'}
+[19.531964] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all\n'}
+[19.532178] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake\n'}
+[19.532754] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake\n'}
+[19.532945] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/nmolla/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml\n'}
+[19.535238] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[19.578689] (-) TimerEvent: {}
+[19.631227] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 0}
+[19.632412] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+[01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/turtle.hpp: No such file or directory
+    5 | #include [01;31m[K"my_robot_interfaces/msg/turtle.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

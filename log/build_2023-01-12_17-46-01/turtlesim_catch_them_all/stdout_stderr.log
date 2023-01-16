@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found turtlesim: 1.3.4 (/opt/ros/galactic/share/turtlesim/cmake)
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nmolla/ros2_ws/build/turtlesim_catch_them_all
+[35m[1mScanning dependencies of target turtle_spawner[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o[0m
+[01m[K/home/nmolla/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/turtle.hpp: No such file or directory
+    4 | #include [01;31m[K"my_robot_interfaces/msg/turtle.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:63: CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/turtle_spawner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/nmolla/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+Invoked command in '/home/nmolla/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_robot_interfaces -- -j4 -l4

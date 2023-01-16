@@ -1,0 +1,29 @@
+[0.024s] Invoking command in '/home/nmolla/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.075s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.108s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.206s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.269s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.560s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.562s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.593s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.826s] -- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)
+[1.099s] -- Configuring done
+[1.126s] -- Generating done
+[1.129s] -- Build files have been written to: /home/nmolla/ros2_ws/build/my_cpp_pkg
+[1.170s] [35m[1mScanning dependencies of target smartphone[0m
+[1.173s] [35m[1mScanning dependencies of target robot_news_station[0m
+[1.220s] [ 16%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.232s] [ 33%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[4.726s] [01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:24:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.726s]    24 |     rclcpp::Subscription<example_interfaces::msg::String>::SharedPtr [01;31m[Ksubscriber_[m[K
+[4.726s]       |                                                                      [01;31m[K^~~~~~~~~~~[m[K
+[4.727s]       |                                                                                 [32m[K;[m[K
+[9.187s] [ 50%] [32m[1mLinking CXX executable robot_news_station[0m
+[9.236s] make[2]: *** [CMakeFiles/smartphone.dir/build.make:63: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+[9.237s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/smartphone.dir/all] Error 2
+[9.237s] make[1]: *** Waiting for unfinished jobs....
+[9.598s] [ 50%] Built target robot_news_station
+[9.604s] make: *** [Makefile:141: all] Error 2
+[9.608s] Invoked command in '/home/nmolla/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nmolla/ros2_ws/build/my_cpp_pkg -- -j4 -l4

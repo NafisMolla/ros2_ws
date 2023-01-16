@@ -1,0 +1,8 @@
+[01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:24:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |     rclcpp::Subscription<example_interfaces::msg::String>::SharedPtr [01;31m[Ksubscriber_[m[K
+      |                                                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                                 [32m[K;[m[K
+make[2]: *** [CMakeFiles/smartphone.dir/build.make:63: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/smartphone.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

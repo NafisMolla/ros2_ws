@@ -1,0 +1,8 @@
+[01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisher::publishHardwareStatus()[m[K’:
+[01m[K/home/nmolla/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct my_robot_interfaces::msg::HardwareStatus_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktemperature[m[K’; did you mean ‘[01m[Ktermperature[m[K’?
+   21 |         msg.[01;31m[Ktemperature[m[K = 57;
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Ktermperature[m[K
+make[2]: *** [CMakeFiles/hardware_status_publisher.dir/build.make:63: CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/hardware_status_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
